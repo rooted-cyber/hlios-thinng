@@ -1,0 +1,10 @@
+name: helios-mirror
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  mirror-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Running helios-bot in github action
+        run: wget 
